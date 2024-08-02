@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "alpha:planks"
+    },
+    "x": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "axa",
+    "aaa"
+  ],
+  "result": {
+    "item": "alpha:note_block"
+  },
+  "show_notification": true
+}

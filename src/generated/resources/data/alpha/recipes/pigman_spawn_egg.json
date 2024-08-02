@@ -1,0 +1,8 @@
+{
+  "type": "alpha:stonecutter",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:pig_spawn_egg"
+  },
+  "result": "alpha:pigman_spawn_egg"
+}

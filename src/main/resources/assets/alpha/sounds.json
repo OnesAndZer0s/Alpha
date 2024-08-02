@@ -1,0 +1,87 @@
+{
+  "item.bow.use": {
+    "subtitle": "subtitles.item.alpha.bow.use",
+    "sounds": [
+      "alpha:bow_use"
+    ]
+  },
+  "item.arrow.land": {
+    "subtitle": "subtitles.item.alpha.arrow.land",
+    "sounds": [
+      "alpha:arrow"
+    ]
+  },
+  "disc.calm": {
+    "subtitle": "subtitles.item.alpha.disc.calm",
+    "sounds": [
+      "alpha:calm"
+    ]
+  },
+  "disc.dog": {
+    "subtitle": "subtitles.item.alpha.disc.dog",
+    "sounds": [
+      "alpha:dog"
+    ]
+  },
+  "block.door.close": {
+    "subtitle": "subtitles.block.alpha.door.close",
+    "sounds": [
+      "alpha:doorclose"
+    ]
+  },
+  "block.door.open": {
+    "subtitle": "subtitles.block.alpha.door.open",
+    "sounds": [
+      "alpha:dooropen"
+    ]
+  },
+  "block.dispenser.click": {
+    "subtitle": "subtitles.block.alpha.dispenser.open",
+    "sounds": [
+      "alpha:click"
+    ]
+  },
+  "block.dispenser.empty": {
+    "subtitle": "subtitles.block.alpha.dispenser.empty",
+    "sounds": [
+      "alpha:empty"
+    ]
+  },
+  "block.tnt.explode": {
+    "subtitle": "subtitles.block.alpha.tnt.explode",
+    "sounds": [
+      "alpha:explode"
+    ]
+  },
+  "block.lava.ambient": {
+    "subtitle": "subtitles.block.alpha.lava.ambient",
+    "sounds": [
+      "alpha:lava"
+    ]
+  },
+  "block.water.splash": {
+    "subtitle": "subtitles.block.alpha.water.splash",
+    "sounds": [
+      "alpha:splash"
+    ]
+  },
+  "entity.mob.hurt": {
+    "subtitle": "subtitles.entity.alpha.mob.hurt",
+    "sounds": [
+      "alpha:hurt"
+    ]
+  },
+  "entity.mob.fall_small": {
+    "subtitle": "subtitles.entity.alpha.mob.fall_small",
+    "sounds": [
+      "alpha:fall_small"
+    ]
+  },
+  "entity.mob.fall": {
+    "subtitle": "subtitles.entity.alpha.mob.fall",
+    "sounds": [
+      "alpha:fall1",
+      "alpha:fall2"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "alpha:block/redstone_block"
+    }
+  }
+}

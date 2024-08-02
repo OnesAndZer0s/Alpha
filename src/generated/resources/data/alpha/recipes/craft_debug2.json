@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:red_concrete"
+    },
+    "b": {
+      "item": "minecraft:lime_concrete"
+    },
+    "c": {
+      "item": "minecraft:blue_concrete"
+    },
+    "d": {
+      "item": "minecraft:yellow_concrete"
+    }
+  },
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "result": {
+    "count": 4,
+    "item": "alpha:debug_alt"
+  },
+  "show_notification": true
+}

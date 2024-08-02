@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "alpha:cobblestone"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "x": {
+      "item": "alpha:bow"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "axa",
+    "aba"
+  ],
+  "result": {
+    "item": "alpha:dispenser"
+  },
+  "show_notification": true
+}

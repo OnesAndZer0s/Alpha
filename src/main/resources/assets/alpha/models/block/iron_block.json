@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "alpha:block/iron_bottom",
+    "side": "alpha:block/iron_side",
+    "top": "alpha:block/iron_top"
+  }
+}

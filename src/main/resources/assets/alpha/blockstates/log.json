@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "alpha:block/log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "alpha:block/log"
+    },
+    "axis=z": {
+      "model": "alpha:block/log_horizontal",
+      "x": 90
+    }
+  }
+}

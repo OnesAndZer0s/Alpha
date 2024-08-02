@@ -1,0 +1,11 @@
+{
+  "values": [
+    "alpha:quartz_block",
+    "alpha:ruby_block",
+    "alpha:diamond_block",
+    "alpha:iron_block",
+    "alpha:gold_block",
+    "alpha:lapis_block",
+    "alpha:redstone_block"
+  ]
+}

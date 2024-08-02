@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "alpha:block/carved_pumpkin",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "alpha:block/carved_pumpkin"
+    },
+    "facing=south": {
+      "model": "alpha:block/carved_pumpkin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alpha:block/carved_pumpkin",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "alpha:block/hay_block_top",
+    "side": "alpha:block/hay_block"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "alpha:stonecutter",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:chainmail_boots"
+  },
+  "result": "alpha:studded_boots"
+}

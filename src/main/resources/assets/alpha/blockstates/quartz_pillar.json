@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "alpha:block/quartz_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "alpha:block/quartz_pillar"
+    },
+    "axis=z": {
+      "model": "alpha:block/quartz_pillar_horizontal",
+      "x": 90
+    }
+  }
+}

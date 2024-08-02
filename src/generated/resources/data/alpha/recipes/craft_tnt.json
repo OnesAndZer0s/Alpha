@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:gunpowder"
+    },
+    "x": {
+      "item": "alpha:sand"
+    }
+  },
+  "pattern": [
+    "axa",
+    "xax",
+    "axa"
+  ],
+  "result": {
+    "item": "alpha:tnt"
+  },
+  "show_notification": true
+}

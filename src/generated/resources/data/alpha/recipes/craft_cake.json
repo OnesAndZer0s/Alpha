@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:milk_bucket"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "alpha:wheat"
+    },
+    "d": {
+      "item": "minecraft:egg"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "bdb",
+    "ccc"
+  ],
+  "result": {
+    "item": "alpha:cake"
+  },
+  "show_notification": true
+}

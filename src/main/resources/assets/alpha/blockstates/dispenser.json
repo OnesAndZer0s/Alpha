@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "alpha:block/dispenser_vertical",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "alpha:block/dispenser",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "alpha:block/dispenser"
+    },
+    "facing=south": {
+      "model": "alpha:block/dispenser",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "alpha:block/dispenser_vertical"
+    },
+    "facing=west": {
+      "model": "alpha:block/dispenser",
+      "y": 270
+    }
+  }
+}

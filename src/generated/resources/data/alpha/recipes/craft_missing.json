@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:black_concrete"
+    },
+    "b": {
+      "item": "minecraft:magenta_concrete"
+    }
+  },
+  "pattern": [
+    "ab",
+    "ba"
+  ],
+  "result": {
+    "count": 4,
+    "item": "alpha:missing"
+  },
+  "show_notification": true
+}

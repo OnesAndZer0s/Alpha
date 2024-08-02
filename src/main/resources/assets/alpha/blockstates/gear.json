@@ -1,0 +1,300 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "alpha:block/gear"
+      },
+      "when": {
+        "north": "true",
+        "state": "cw"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear"
+      },
+      "when": {
+        "down": "false",
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "up": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "state": "cw"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "down": "false",
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "up": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "south": "true",
+        "state": "cw"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "down": "false",
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "up": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "west": "true",
+        "state": "cw"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "down": "false",
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "up": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear",
+        "uvlock": true,
+        "x": 270
+      },
+      "when": {
+        "up": "true",
+        "state": "cw"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear",
+        "uvlock": true,
+        "x": 270
+      },
+      "when": {
+        "down": "false",
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "up": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear",
+        "uvlock": true,
+        "x": 90
+      },
+      "when": {
+        "down": "true",
+        "state": "cw"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear",
+        "uvlock": true,
+        "x": 90
+      },
+      "when": {
+        "down": "false",
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "up": "false",
+        "west": "false"
+      }
+    },
+
+
+
+
+
+
+
+    {
+      "apply": {
+        "model": "alpha:block/gear_still"
+      },
+      "when": {
+        "north": "true",
+        "state": "none"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear_still",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "state": "none"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear_still",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "south": "true",
+        "state": "none"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear_still",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "west": "true",
+        "state": "none"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear_still",
+        "uvlock": true,
+        "x": 270
+      },
+      "when": {
+        "up": "true",
+        "state": "none"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear_still",
+        "uvlock": true,
+        "x": 90
+      },
+      "when": {
+        "down": "true",
+        "state": "none"
+      }
+    },
+
+
+
+
+
+
+
+
+
+    {
+      "apply": {
+        "model": "alpha:block/gear_ccw"
+      },
+      "when": {
+        "north": "true",
+        "state": "ccw"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear_ccw",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "state": "ccw"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear_ccw",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "south": "true",
+        "state": "ccw"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear_ccw",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "west": "true",
+        "state": "ccw"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear_ccw",
+        "uvlock": true,
+        "x": 270
+      },
+      "when": {
+        "up": "true",
+        "state": "ccw"
+      }
+    },
+    {
+      "apply": {
+        "model": "alpha:block/gear_ccw",
+        "uvlock": true,
+        "x": 90
+      },
+      "when": {
+        "down": "true",
+        "state": "ccw"
+      }
+    }
+  ]
+}

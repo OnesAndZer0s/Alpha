@@ -1,0 +1,8 @@
+{
+  "type": "alpha:stonecutter",
+  "count": 1,
+  "ingredient": {
+    "item": "alpha:new_nether_reactor"
+  },
+  "result": "alpha:nether_reactor"
+}

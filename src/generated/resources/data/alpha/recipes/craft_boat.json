@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "alpha:planks"
+    }
+  },
+  "pattern": [
+    "a a",
+    "aaa"
+  ],
+  "result": {
+    "item": "alpha:boat"
+  },
+  "show_notification": true
+}

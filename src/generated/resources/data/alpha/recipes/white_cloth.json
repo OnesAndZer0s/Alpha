@@ -1,0 +1,8 @@
+{
+  "type": "alpha:stonecutter",
+  "count": 1,
+  "ingredient": {
+    "tag": "minecraft:wool"
+  },
+  "result": "alpha:white_cloth"
+}

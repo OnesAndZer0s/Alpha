@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "alpha:raw_porkchop"
+  },
+  "result": "alpha:cooked_porkchop"
+}

@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "com.onesandzer0s.alpha.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "alpha.refmap.json",
+  "mixins": [
+    "AlphaAbstractProjectileDispenseBehaviorMixin",
+    "AlphaDefaultDispenserBehaviourMixin",
+    "AlphaLavaIsLava",
+    "AlphaSwordBlocking",
+    "AlphaTntSound",
+    "AlphaWaterSounds",
+    "EndPortalTeleportationTransmutation"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

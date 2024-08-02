@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "render_type": "cutout",
+  "textures": {
+    "bottom": "alpha:block/iron_door_bottom",
+    "top": "alphat:block/iron_door_top"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "alpha:stonecutter",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:red_mushroom_block"
+  },
+  "result": "alpha:red_mushroom_block"
+}

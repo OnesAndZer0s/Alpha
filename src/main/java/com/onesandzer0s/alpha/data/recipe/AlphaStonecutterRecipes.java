@@ -1,0 +1,146 @@
+package com.onesandzer0s.alpha.data.recipe;
+
+import com.onesandzer0s.alpha.common.registry.AItems;
+import com.onesandzer0s.alpha.common.registry.ARecipeSerializers;
+import net.minecraft.advancements.critereon.*;
+import net.minecraft.data.recipes.FinishedRecipe;
+import net.minecraft.data.recipes.RecipeCategory;
+import net.minecraft.data.recipes.SingleItemRecipeBuilder;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.crafting.RecipeSerializer;
+
+import java.util.function.Consumer;
+
+public class AlphaStonecutterRecipes {
+   public static void register( Consumer<FinishedRecipe> output) {
+      easyRegister(RecipeCategory.DECORATIONS, Items.NETHER_QUARTZ_ORE, AItems.QUARTZ_ORE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.EMERALD_BLOCK, AItems.RUBY_BLOCK.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.GRASS_BLOCK, AItems.GRASS_BLOCK.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, AItems.NEW_NETHER_REACTOR.get(), AItems.NETHER_REACTOR.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.COBBLESTONE, AItems.COBBLESTONE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.MOSSY_COBBLESTONE, AItems.MOSSY_COBBLESTONE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.NETHERRACK, AItems.NETHERRACK.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.SOUL_SAND, AItems.SOUL_SAND.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.OAK_LOG, AItems.LOG.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.BROWN_MUSHROOM_BLOCK, AItems.BROWN_MUSHROOM_BLOCK.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.RED_MUSHROOM_BLOCK, AItems.RED_MUSHROOM_BLOCK.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.MUSHROOM_STEM, AItems.MUSHROOM_STEM.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.SNOW_BLOCK, AItems.SNOW.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.SNOW, AItems.SNOW_LAYER.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.OAK_LEAVES, AItems.LEAVES.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.OAK_SLAB, AItems.SLAB.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.OAK_STAIRS, AItems.STAIRS.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.SMOOTH_STONE, AItems.SMOOTH_STONE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.SMOOTH_STONE_SLAB, AItems.SMOOTH_STONE_SLAB.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.OAK_FENCE, AItems.FENCE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.COBBLESTONE_SLAB, AItems.COBBLESTONE_SLAB.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.COBBLESTONE_STAIRS, AItems.COBBLESTONE_STAIRS.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.SAND, AItems.SAND.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.GRAVEL, AItems.GRAVEL.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.OAK_PLANKS, AItems.PLANKS.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.OBSIDIAN, AItems.OBSIDIAN.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.GLOWSTONE, AItems.GLOWSTONE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.BRICKS, AItems.BRICKS.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.TNT, AItems.TNT.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.DIAMOND_BLOCK, AItems.DIAMOND_BLOCK.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.IRON_BLOCK, AItems.IRON_BLOCK.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.GOLD_BLOCK, AItems.GOLD_BLOCK.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.LAPIS_BLOCK, AItems.LAPIS_BLOCK.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.REDSTONE_BLOCK, AItems.REDSTONE_BLOCK.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.DISPENSER, AItems.DISPENSER.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.NOTE_BLOCK, AItems.NOTE_BLOCK.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.FURNACE, AItems.FURNACE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.SPONGE, AItems.SPONGE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.CACTUS, AItems.CACTUS.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.SUGAR_CANE, AItems.SUGARCANE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.ICE, AItems.ICE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.PUMPKIN, AItems.CARVED_PUMPKIN.get(), 1).save(output, "alpha:carved_pumpkin_from_pumpkin");
+      easyRegister(RecipeCategory.DECORATIONS, Items.CARVED_PUMPKIN, AItems.CARVED_PUMPKIN.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.JACK_O_LANTERN, AItems.JACK_O_LANTERN.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.MELON, AItems.MELON.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.OAK_DOOR, AItems.DOOR.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.OAK_TRAPDOOR, AItems.TRAPDOOR.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.IRON_DOOR, AItems.IRON_DOOR.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.STONECUTTER, AItems.STONECUTTER.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.POPPY, AItems.ROSE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.CORNFLOWER, AItems.CYAN_FLOWER.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.DANDELION, AItems.DANDELION.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.PEONY, AItems.PAEONIA.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.OAK_SAPLING, AItems.SAPLING.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.RED_MUSHROOM, AItems.RED_MUSHROOM.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.BROWN_MUSHROOM, AItems.BROWN_MUSHROOM.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.CHEST, AItems.CHEST.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.WHITE_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.LIGHT_GRAY_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.DARK_GRAY_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.RED_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.ORANGE_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.YELLOW_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.CHARTREUSE_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.GREEN_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.SPRING_GREEN_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.CYAN_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.CAPRI_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.ULTRAMARINE_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.VIOLET_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.PURPLE_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.MAGENTA_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, ItemTags.WOOL, AItems.ROSE_CLOTH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.GLASS, AItems.GLASS.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.GLASS_PANE, AItems.GLASS_PANE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.CRYING_OBSIDIAN, AItems.CRYING_OBSIDIAN.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.WHEAT_SEEDS, AItems.WHEAT_SEEDS.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.WHEAT, AItems.WHEAT.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.CAKE, AItems.CAKE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.CHISELED_QUARTZ_BLOCK, AItems.CHISELED_QUARTZ.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.QUARTZ_PILLAR, AItems.QUARTZ_PILLAR.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.QUARTZ_BLOCK, AItems.QUARTZ_BLOCK.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.HAY_BLOCK, AItems.HAY_BLOCK.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.CLAY, AItems.CLAY_BLOCK.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.EMERALD, AItems.RUBY.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.PORKCHOP, AItems.RAW_PORKCHOP.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.COOKED_PORKCHOP, AItems.COOKED_PORKCHOP.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.BEEF, AItems.RAW_BEEF.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.COOKED_BEEF, AItems.COOKED_BEEF.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.CHICKEN, AItems.RAW_CHICKEN.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.COOKED_CHICKEN, AItems.COOKED_CHICKEN.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.COD, AItems.RAW_FISH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.COOKED_COD, AItems.COOKED_FISH.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.BREAD, AItems.BREAD.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.QUARTZ, AItems.QUARTZ.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.APPLE, AItems.APPLE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.MUSIC_DISC_13, AItems.CALM_DISC.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.MUSIC_DISC_CAT, AItems.DOG_DISC.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.LAVA_BUCKET, AItems.LAVA_BUCKET.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.WATER_BUCKET, AItems.WATER_BUCKET.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.BOW, AItems.BOW.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.WOODEN_SWORD, AItems.WOODEN_SWORD.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.STONE_SWORD, AItems.STONE_SWORD.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.IRON_SWORD, AItems.IRON_SWORD.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.GOLDEN_SWORD, AItems.GOLD_SWORD.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.DIAMOND_SWORD, AItems.DIAMOND_SWORD.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.CHAINMAIL_BOOTS, AItems.STUDDED_BOOTS.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.CHAINMAIL_CHESTPLATE, AItems.STUDDED_CHESTPLATE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.CHAINMAIL_HELMET, AItems.STUDDED_HELMET.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.CHAINMAIL_LEGGINGS, AItems.STUDDED_LEGGINGS.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.OAK_BOAT, AItems.BOAT.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.ZOMBIE_SPAWN_EGG, AItems.MOB_SPAWN_EGG.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.PIG_SPAWN_EGG, AItems.PIGMAN_SPAWN_EGG.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.ZOMBIFIED_PIGLIN_SPAWN_EGG, AItems.ZOMBIE_PIGMAN_SPAWN_EGG.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.CUT_SANDSTONE, AItems.CUT_SANDSTONE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.CHISELED_SANDSTONE, AItems.CHISELED_SANDSTONE.get(), 1).save(output);
+      easyRegister(RecipeCategory.DECORATIONS, Items.DEAD_BUSH, AItems.DEAD_BUSH.get(), 1).save(output);
+
+   }
+
+   private static SingleItemRecipeBuilder easyRegister( RecipeCategory cat, TagKey<Item> in, Item out, int count){
+      return new SingleItemRecipeBuilder(cat, ARecipeSerializers.ALPHA_STONECUTTER.get(), Ingredient.of(in), out, count).unlockedBy("has_item", InventoryChangeTrigger.TriggerInstance.hasItems(new ItemPredicate(in, null, MinMaxBounds.Ints.ANY, MinMaxBounds.Ints.ANY, EnchantmentPredicate.NONE,EnchantmentPredicate.NONE,null, NbtPredicate.ANY) ));
+   }
+   private static SingleItemRecipeBuilder easyRegister(RecipeCategory cat, Item in, Item out, int count){
+      return new SingleItemRecipeBuilder(cat, ARecipeSerializers.ALPHA_STONECUTTER.get(), Ingredient.of(in), out, count).unlockedBy("has_item", InventoryChangeTrigger.TriggerInstance.hasItems(in));
+   }
+}

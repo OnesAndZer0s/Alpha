@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "state=0": {
+      "model": "alpha:block/nether_reactor_core"
+    },
+    "state=1": {
+      "model": "alpha:block/nether_reactor_active"
+    },
+    "state=2": {
+      "model": "alpha:block/nether_reactor_finished"
+    }
+  }
+}
